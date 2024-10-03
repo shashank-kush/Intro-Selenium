@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
 public class Scope {
@@ -12,14 +13,21 @@ public class Scope {
 	public static void main(String[] args) {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32 (11)//chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\DELL\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Downloads\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\chromedriver-win64 (2)\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\chromedriver-win64//chromedriver.exe");
+		
+		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+		
+		WebDriver driver = new ChromeDriver(options);
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		driver.get("https://www.rahulshettyacademy.com/AutomationPractice/");
 		driver.manage().window().maximize();
 		
 		driver.findElement(By.xpath("//div[@class='right-align']/fieldset/label[2]/input")).click();
 		String opt = driver.findElement(By.xpath("//div[@class='right-align']/fieldset/label[2]")).getText();
+		//isne Option2 ko bs save krke rakha h kyuki gettext h ab usko kahi bhi use krte rho
 		System.out.println(opt);
 		
 		WebElement dropdown = driver.findElement(By.id("dropdown-class-example"));
@@ -34,24 +42,6 @@ public class Scope {
 		driver.findElement(By.xpath("//div[@class='left-align']/fieldset/label[3]/input")).click();
 		String opt1 = driver.findElement(By.xpath("//div[@class='left-align']/fieldset/label[3]")).getText();
 		System.out.println(opt1);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-			
-		
 		
 		
 		/* niche ka code rahul shetty course me btaya h, original h

@@ -1,10 +1,12 @@
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class greenkart {
 
@@ -12,14 +14,18 @@ public class greenkart {
 		// TODO Auto-generated method stub
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\chromedriver_win32 (11)//chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+				"C:\\\\\\\\\\\\\\\\Users\\\\\\\\\\\\\\\\DELL\\\\\\\\\\\\\\\\Downloads\\\\\\\\\\\\\\\\chromedriver-win64 (2)\\\\\\\\\\\\\\\\chromedriver-win64//chromedriver.exe");
+		ChromeOptions option = new ChromeOptions();
+		option.addArguments("--remote-allow-origins=*");
+		WebDriver driver = new ChromeDriver(option);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+
 		int j=0;
 			
 		String[] itemsNeeded= {"Cucumber","Brocolli", "Beetroot", "Carrot"};
 		
-		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
-		driver.manage().window().maximize();
+				driver.manage().window().maximize();
 		Thread.sleep(3000);
 		
 		List<WebElement> products = (List<WebElement>) driver.findElement(By.cssSelector("h4.product-name"));

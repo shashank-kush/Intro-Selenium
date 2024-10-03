@@ -19,12 +19,15 @@ public class sellintroduction {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--disable-notifications");
+		//ChromeOptions options = new ChromeOptions();
+		//options.addArguments("--disable-notifications");
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\chromedriver_win32 (11)\\chromedriver.exe");
-
+				"C:\\Users\\DELL\\Downloads\\chromedriver-win64 (2)\\chromedriver-win64//chromedriver.exe");
+		
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--remote-allow-origins=*");
+		
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	
@@ -32,6 +35,7 @@ public class sellintroduction {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 
+		
 		driver.findElement(By.xpath("//div[text()='round trip']")).click();
 		driver.findElement(By.xpath("//div[text()='one way']")).click();
 		driver.findElement(By.xpath("//div[text()='From']")).click();
@@ -73,10 +77,11 @@ public class sellintroduction {
 		}
 		System.out.println(driver.findElement(By.xpath("//div[@class='css-1dbjc4n']//div[@class='css-76zvg2 css-bfa6kz r-homxoj r-ubezar']")).getText());
 	
+		
 		WebElement num = driver.findElement(By.xpath("//div[text()='Currency']"));
 		num.click();     
 		List<WebElement> drop = driver.findElements(By.xpath("//div[@class='css-1dbjc4n r-150rngu r-eqz5dr r-16y2uox r-1wbh5a2 r-11yh6sk r-1rnoaur r-1sncvnh']//div[@class='css-1dbjc4n r-1habvwh r-1loqt21 r-1777fci r-1mi0q7o r-1yt7n81 r-m611by r-1otgn73']"));
-		int b=drop.size() ;
+		int b=drop.size();
 		for(int i=0; i<=b; i++) 
 		{
 			if(drop.get(i).getText().contains("OMR"))
@@ -86,6 +91,9 @@ public class sellintroduction {
 			}
 			System.out.println(drop.get(i).getText());
 		}
+		
+		
+		
 		driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-18u37iz r-1wtj0ep r-1lgpqti']/div[@class='css-1dbjc4n']/div[@data-focusable='true']")).click();
 		System.out.println(driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-14lw9ot r-z2wwpe r-f9v2oj r-1a852e4 r-1609sg0 r-1pcd2l5 r-1mdbw0j r-hnxvie']//div[@class='css-76zvg2 r-homxoj r-1i10wst r-1kfrs79']")).getText());
 		System.out.println(driver.findElement(By.xpath("//div[@class='css-1dbjc4n r-14lw9ot r-z2wwpe r-f9v2oj r-1a852e4 r-1609sg0 r-1pcd2l5 r-1mdbw0j r-hnxvie']//div[@class='css-76zvg2 r-homxoj r-ubezar r-10yl4k']")).getText());

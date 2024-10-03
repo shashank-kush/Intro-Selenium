@@ -12,11 +12,13 @@ public class irctc {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\DELL\\Downloads\\chromedriver-win64 (2)\\chromedriver-win64//chromedriver.exe");
+		
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--disable-notifications");
-
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver_win32 (11)//chromedriver.exe");
-		WebDriver driver = new ChromeDriver() ;
+		options.addArguments("--remote-allow-origins=*");
+		
+		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.goibibo.com/flights/?utm_source=google&utm_medium=cpc&utm_campaign=DF-Brand-EM&utm_adgroup=Only+Goibibo&utm_term=%21SEM%21DF%21G%21Brand%21RSA%21108599293%216504095653%21602838584772%21e%21goibibo%21c%21&gclid=Cj0KCQiAofieBhDXARIsAHTTldoSTqfr1IYya5ysU-dbkPrkMLHQPNLTKaUBEAbDBrLMrpM85AOejjAaAkTCEALw_wcB");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

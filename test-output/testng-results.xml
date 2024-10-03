@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="14" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-02T20:17:44 IST" name="Facebook Login" finished-at="2024-10-02T20:17:46 IST" duration-ms="1842">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestCaseGrouping.testFourth()[pri:0, instance:testNGexecutionorder.TestCaseGrouping@5f8edcc5]" name="testFourth" class="testNGexecutionorder.TestCaseGrouping"/>
+        <method signature="TestCaseGrouping.testSecond()[pri:0, instance:testNGexecutionorder.TestCaseGrouping@5f8edcc5]" name="testSecond" class="testNGexecutionorder.TestCaseGrouping"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestCaseGrouping.testFourth()[pri:0, instance:testNGexecutionorder.TestCaseGrouping@5f8edcc5]" name="testFourth" class="testNGexecutionorder.TestCaseGrouping"/>
+        <method signature="TestCaseGrouping.testone()[pri:0, instance:testNGexecutionorder.TestCaseGrouping@5f8edcc5]" name="testone" class="testNGexecutionorder.TestCaseGrouping"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2024-10-02T20:17:44 IST" name="suit" finished-at="2024-10-02T20:17:44 IST" duration-ms="319">
+      <class name="Testng.Newtry">
+        <test-method signature="main()[pri:0, instance:Testng.Newtry@26794848]" started-at="2024-10-02T20:17:44 IST" name="main" finished-at="2024-10-02T20:17:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- Testng.Newtry -->
+    </test> <!-- suit -->
+    <test started-at="2024-10-02T20:17:44 IST" name="sample test case for package" finished-at="2024-10-02T20:17:44 IST" duration-ms="33">
+      <class name="training.testNG.sampleTwo">
+        <test-method signature="sampleTwoPracticeSecond()[pri:0, instance:training.testNG.sampleTwo@10aa41f2]" started-at="2024-10-02T20:17:44 IST" name="sampleTwoPracticeSecond" finished-at="2024-10-02T20:17:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTwoPracticeSecond -->
+        <test-method signature="sampleTwoPracticefirst()[pri:0, instance:training.testNG.sampleTwo@10aa41f2]" started-at="2024-10-02T20:17:44 IST" name="sampleTwoPracticefirst" finished-at="2024-10-02T20:17:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTwoPracticefirst -->
+      </class> <!-- training.testNG.sampleTwo -->
+      <class name="training.testNG.sampleAgain">
+        <test-method is-config="true" signature="sample1()[pri:0, instance:training.testNG.sampleAgain@6aaceffd]" started-at="2024-10-02T20:17:44 IST" name="sample1" finished-at="2024-10-02T20:17:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample1 -->
+        <test-method signature="sample()[pri:0, instance:training.testNG.sampleAgain@6aaceffd]" started-at="2024-10-02T20:17:44 IST" name="sample" finished-at="2024-10-02T20:17:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- training.testNG.sampleAgain -->
+      <class name="training.testNG.sampleOne">
+        <test-method signature="sampleOnePracticeSecond()[pri:0, instance:training.testNG.sampleOne@c86b9e3]" started-at="2024-10-02T20:17:44 IST" name="sampleOnePracticeSecond" finished-at="2024-10-02T20:17:44 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleOnePracticeSecond -->
+        <test-method signature="sampleOnePracticefirst()[pri:0, instance:training.testNG.sampleOne@c86b9e3]" started-at="2024-10-02T20:17:44 IST" name="sampleOnePracticefirst" finished-at="2024-10-02T20:17:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleOnePracticefirst -->
+      </class> <!-- training.testNG.sampleOne -->
+    </test> <!-- sample test case for package -->
+    <test started-at="2024-10-02T20:17:45 IST" name="grouping" finished-at="2024-10-02T20:17:45 IST" duration-ms="33">
+      <class name="testNGexecutionorder.TestCaseGrouping">
+        <test-method signature="testFourth()[pri:0, instance:testNGexecutionorder.TestCaseGrouping@5f8edcc5]" started-at="2024-10-02T20:17:45 IST" name="testFourth" finished-at="2024-10-02T20:17:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFourth -->
+        <test-method signature="testSecond()[pri:0, instance:testNGexecutionorder.TestCaseGrouping@5f8edcc5]" started-at="2024-10-02T20:17:45 IST" name="testSecond" finished-at="2024-10-02T20:17:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSecond -->
+        <test-method signature="testone()[pri:0, instance:testNGexecutionorder.TestCaseGrouping@5f8edcc5]" started-at="2024-10-02T20:17:45 IST" name="testone" finished-at="2024-10-02T20:17:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testone -->
+      </class> <!-- testNGexecutionorder.TestCaseGrouping -->
+    </test> <!-- grouping -->
+    <test started-at="2024-10-02T20:17:45 IST" name="test parameters" finished-at="2024-10-02T20:17:45 IST" duration-ms="12">
+      <class name="TestNGDataProviders.TestParameters">
+        <test-method signature="TestcaseOne(java.lang.String)[pri:0, instance:TestNGDataProviders.TestParameters@2f465398]" started-at="2024-10-02T20:17:45 IST" name="TestcaseOne" finished-at="2024-10-02T20:17:45 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcaseOne -->
+        <test-method signature="TestcaseSecond(java.lang.String,java.lang.String)[pri:0, instance:TestNGDataProviders.TestParameters@2f465398]" started-at="2024-10-02T20:17:45 IST" name="TestcaseSecond" finished-at="2024-10-02T20:17:45 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wtwrtw@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcaseSecond -->
+      </class> <!-- TestNGDataProviders.TestParameters -->
+    </test> <!-- test parameters -->
+    <test started-at="2024-10-02T20:17:45 IST" name="parameters" finished-at="2024-10-02T20:17:45 IST" duration-ms="26">
+      <class name="TestNGDataProviders.ITParameterization">
+        <test-method signature="add(int,int)[pri:0, instance:TestNGDataProviders.ITParameterization@6a03bcb1]" started-at="2024-10-02T20:17:45 IST" name="add" finished-at="2024-10-02T20:17:45 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method signature="substraction(int,int)[pri:0, instance:TestNGDataProviders.ITParameterization@6a03bcb1]" started-at="2024-10-02T20:17:45 IST" name="substraction" finished-at="2024-10-02T20:17:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substraction -->
+      </class> <!-- TestNGDataProviders.ITParameterization -->
+    </test> <!-- parameters -->
+    <test started-at="2024-10-02T20:17:46 IST" name="test" finished-at="2024-10-02T20:17:46 IST" duration-ms="26">
+      <class name="TestNGListeners.ITmainListeners">
+        <test-method signature="test()[pri:0, instance:TestNGListeners.ITmainListeners@11fc564b]" started-at="2024-10-02T20:17:46 IST" name="test" finished-at="2024-10-02T20:17:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test2()[pri:0, instance:TestNGListeners.ITmainListeners@11fc564b]" started-at="2024-10-02T20:17:46 IST" name="test2" finished-at="2024-10-02T20:17:46 IST" duration-ms="10" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at TestNGListeners.ITmainListeners.test2(ITmainListeners.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:TestNGListeners.ITmainListeners@11fc564b]" started-at="2024-10-02T20:17:46 IST" name="test3" finished-at="2024-10-02T20:17:46 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skip method]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skip method
+at TestNGListeners.ITmainListeners.test3(ITmainListeners.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNGListeners.ITmainListeners -->
+      <class name="Testng.Newtry">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:Testng.Newtry@26794848]" started-at="2024-10-02T20:17:44 IST" name="beforesuit" finished-at="2024-10-02T20:17:44 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:Testng.Newtry@26794848]" started-at="2024-10-02T20:17:46 IST" name="aftersuit" finished-at="2024-10-02T20:17:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- Testng.Newtry -->
+    </test> <!-- test -->
+  </suite> <!-- Facebook Login -->
+</testng-results>
